@@ -1,0 +1,11 @@
+[package]
+name = "server-lib"
+version = "0.1.0"
+edition = "2021"
+description = "GDExtension library for the server Godot project"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+godot = "0.4"

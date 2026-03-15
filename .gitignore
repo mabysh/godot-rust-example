@@ -1,0 +1,24 @@
+# server-lib (Rust)
+server-lib/target/
+server-lib/**/*.rs.bk
+
+# client (Godot)
+client/.godot/
+client/**/*.import
+client/**/*.translation
+client/export_presets.cfg
+client/**/*.export
+client/.import/
+client/build/
+
+# server (Godot)
+server/.godot/
+server/**/*.import
+server/**/*.translation
+server/export_presets.cfg
+server/**/*.export
+server/.import/
+server/build/
+
+# Logs
+*.log
